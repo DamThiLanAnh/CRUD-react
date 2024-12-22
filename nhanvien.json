@@ -1,0 +1,103 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Mai Ngọc",
+      "age": "31",
+      "salary": "4500",
+      "address": "Settle"
+    },
+    {
+      "id": 2,
+      "name": "Tiểu Vy",
+      "age": "23",
+      "salary": "5500",
+      "address": "Paris"
+    },
+    {
+      "id": 3,
+      "name": "Đặng Ngọc Hân",
+      "age": "28",
+      "salary": "3200",
+      "address": "Milan"
+    },
+    {
+      "id": 4,
+      "name": "Quỳnh Nga",
+      "age": "33",
+      "salary": "2500",
+      "address": "New York"
+    },
+    {
+      "id": 5,
+      "name": "Đỗ Mỹ Linh",
+      "age": "26",
+      "salary": "3500",
+      "address": "Zurich"
+    },
+    {
+      "id": 6,
+      "name": "Hồng Nhung",
+      "age": "31",
+      "address": "Đà Nẵng"
+    },
+    {
+      "id": 8,
+      "name": "Đặng Thu Thảo",
+      "age": "30",
+      "salary": "5500",
+      "address": "Ohio"
+    },
+    {
+      "id": 9,
+      "name": "Nguyễn Trần Khánh Vân",
+      "age": "43",
+      "address": "Miami"
+    },
+    {
+      "id": 10,
+      "name": "Nguyễn Trần Khánh Vân",
+      "age": "43",
+      "address": "Miami"
+    },
+    {
+      "id": 11,
+      "name": "Nguyễn Trần Khánh Vân",
+      "age": "43",
+      "address": "Miami"
+    },
+    {
+      "id": 12,
+      "name": "Yến Xôi",
+      "age": "29",
+      "address": "Nha Trang",
+      "email": "hungcuong82202@yahoo.com",
+      "phone": "3453253",
+      "salary": "1500"
+    },
+    {
+      "name": "3",
+      "email": "3",
+      "phone": "3",
+      "address": "3",
+      "id": 14
+    },
+    {
+      "name": "Phương Oanh",
+      "age": "32",
+      "address": "Zurich",
+      "salary": "2500",
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
