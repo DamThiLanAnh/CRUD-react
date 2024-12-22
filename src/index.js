@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDom from 'react-dom/client'
-
+import Navbar from './component/navbar'
+import Footer from './component/footer'
 function App() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Navbar />
+      <Footer />
+    </>
   )
 }
 
