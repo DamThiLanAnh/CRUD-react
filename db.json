@@ -1,0 +1,67 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy 15F",
+      "brand": "SamSung",
+      "category": "Phones",
+      "price": "480",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    },
+    {
+      "id": 2,
+      "name": "iphone-5S",
+      "brand": "Iphone",
+      "category": "Phones",
+      "price": "300",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy A5",
+      "brand": "SamSung",
+      "category": "Phones",
+      "price": "200",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    },
+    {
+      "id": 4,
+      "name": "Iphone 6",
+      "brand": "Iphone",
+      "category": "Phones",
+      "price": "450",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    },
+    {
+      "id": 5,
+      "name": "OPPO Find X8 5G 16GB 512GB",
+      "brand": "Oppo",
+      "category": "Phones",
+      "price": "600",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Galaxy 15F",
+      "brand": "SamSung",
+      "category": "Phones",
+      "price": "480",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    },
+    {
+      "id": 7,
+      "name": "Samsung Galaxy 15F",
+      "brand": "SamSung",
+      "category": "Phones",
+      "price": "480",
+      "description": "Smartphone",
+      "createdAt": "2023-03-07"
+    }
+  ]
+}
