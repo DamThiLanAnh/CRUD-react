@@ -1,12 +1,12 @@
 import { React, useState } from 'react'
 function Product() {
-    const [content, setContent] = useState(<ProductList />)
+    const [content, setContent] = useState(<ProductList showForm={showForm} />)
 
     // Được gọi để render lại ProductList (danh sách sản phẩm).
     // Gọi setContent để cập nhật nội dung state content thành <ProductList />.
-    // Truyền thêm prop showFrom={showForm} để liên kết nút "Create" với chức năng chuyển sang form tạo sản phẩm.
+    // Truyền thêm prop showForm={showForm} để liên kết nút "Create" với chức năng chuyển sang form tạo sản phẩm.
     function showList() {
-        setContent(<ProductList showFrom={showForm} />)
+        setContent(<ProductList showForm={showForm} />)
     }
 
     // Được gọi để hiển thị ProductForm (form tạo sản phẩm).
@@ -15,6 +15,7 @@ function Product() {
     function showForm() {
         setContent(<ProductForm showList={showList} />)
     }
+
     return (
         <div className='container my-5'>
             {content}
@@ -23,25 +24,33 @@ function Product() {
 }
 export default Product
 
-function ProductList() {
+function ProductList(props) {
     return (
         <>
             <h2 className='text-center mb-3'>
                 List of products
             </h2>
-            <button className='btn btn-primary me-2'>Create</button>
+            <button
+                type="button"
+                className='btn btn-primary me-2'
+                onClick={() => props.showForm()}
+            >Create</button >
         </>
     )
 }
 
 
-function ProductForm() {
+function ProductForm(props) {
     return (
         <>
             <h2 className='text-center mb-3'>
                 Create of products
             </h2>
-            <button className='btn btn-secondary me-2'>Cancel</button>
+            <button
+                type="button"
+                className='btn btn-secondary me-2'
+                onClick={() => props.showList()}
+            >Cancel</button>
         </>
     )
 }
