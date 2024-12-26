@@ -5,7 +5,7 @@
       "name": "Samsung Galaxy 15F",
       "brand": "SamSung",
       "category": "Phones",
-      "price": "480",
+      "price": "980",
       "description": "Smartphone",
       "createdAt": "2023-03-07"
     },
@@ -14,7 +14,7 @@
       "name": "iphone-5S",
       "brand": "Iphone",
       "category": "Phones",
-      "price": "300",
+      "price": "645",
       "description": "Smartphone",
       "createdAt": "2023-03-07"
     },
